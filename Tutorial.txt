@@ -5,11 +5,11 @@ Lógica de programação
 - estruturas de controle
 - POO
 - estruturas de dados
-
+ 
 ---
-
+ 
 GIT e GITHUB
-
+ 
 Comandos básicos do git:
 git config --global user.name "Seu nome"
 git config --global user.email "seuemail@email.com"
@@ -19,7 +19,7 @@ git add . (adiciona ao repositório local)
 git commit -m "Tutorial" (Documentar as alterações)
 git push (Enviar ao repositório GitHub)
 git pull (sincroniza as informações do repositório) no PC
-
+ 
 Gerar token GitHub
 1) Settings
 2) Developer Settings

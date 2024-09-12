@@ -18,7 +18,7 @@ git status (verificar o status do repositório local)
 git add . (adiciona ao repositório local)
 git commit -m "Tutorial" (Documentar as alterações)
 git push (Enviar ao repositório GitHub)
-git pull (sincroniza as informações do repositório) no PC
+git pull (Sincroniza as informações do repositório - recebe atualizações feitas fora da pasta local no PC)
  
 Gerar token GitHub
 1) Settings

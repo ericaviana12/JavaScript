@@ -1,10 +1,11 @@
 Lógica de programação
-- variáveis
-- operadores
-- algorítmo
-- estruturas de controle
+
+- Variáveis
+- Operadores
+- Algorítmo
+- Estruturas de controle
 - POO
-- estruturas de dados
+- Estruturas de dados
  
 ---
  
@@ -35,6 +36,7 @@ Gerar token GitHub
 Boas práticas na programação
 
 1) Cabeçalho de documentação
+
 /**
 
     Nome do projeto
@@ -43,6 +45,17 @@ Boas práticas na programação
     @version 1.0
 */
 
+2) Nomes de arquivos, variáveis, funções, classes, etc
+
+Regras (clean code / código limpo)
+ - Declarar nomes que tenham relação com o problema
+ - Não usar espaço, "ç", acentos e caracteres especiais para declaração de nomes (Pode causar erros internos no programa)
+ - Só classes iniciam com letra maiúscula
+ - Não iniciar um nome com número (variável)
+ - Quando for declarar dois nomes, usar a técnica do camelo
+    (camel case) - Usar uma letra maiúscula na segunda  palavra
+    Exemplo: nomecliente -> nomeCliente
+
 ---
 
 Node - Plataforma que permite a execução do JavaScript fora do navegador da internet (browser)
@@ -50,13 +63,30 @@ https://nodejs.org/pt - Baixar a versão LTS
 
 ---
 
-Comandos básicos
+Comandos básicos do MS-DOS
+
+clear / cls (limpar a tela do Terminal)
+dir (listar arquivos e diretórios)
+cd "nome_diretório" (entrar no diretório) / Exemplo: cd Fundamentos
+cd .. (voltar para o diretório anterior)
+
+node (permite a execução do JavaScript fora do navegador da internet (browser))
 
 node -v (verificar a versão do Node instalado no PC)
 
 npm -v (verificar a versão do NPM instalado no PC)
 npm ls (listar pacotes instalados)
 npm init (iniciar um novo projeto JavaScript - um setup do novo projeto)
+
+---
+
+Comandos JavaScript (Sintaxe)
+
+console.log() -> escrever no console
+console.clear() -> limpar a tela do console
+const -> criar (declarar) uma constante
+let -> criar (declarar) uma variável
+typeof() -> verificar o tipo de variável
 
 ---
 
@@ -74,3 +104,30 @@ npm init (inicia um novo projeto JavaScript)
     json (JavaScript Object Notation / JavaScript orientado à objetos)
 
 ---
+
+Variável e constante
+
+Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados e modificados durante a execução de um programa. O nome "variável" vem do fato de que o valor armazenado pode variar ao longo do tempo, conforme o programa roda.
+
+Por que usar variáveis?
+Para guardar informações que você vai precisar mais tarde.
+Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
+
+Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
+
+Por que usar constantes?
+Segurança: Se você sabe que um valor não deve ser alterado em seu programa, usar uma constante evita erros.
+Legibilidade: Quando você usa uma constante, deixa claro para quem está lendo o código que aquele valor é fixo e importante.
+Boas práticas: Em muitos casos, é recomendado usar constantes sempre que possível para valores que não precisam mudar, facilitando a manutenção do código.
+
+Nas linguagens de programação, as variáveis são tipadas (estáticas) ou dinamicamente tipadas (dinâmicas)
+
+
+Existem 3 tipos de variáveis:
+
+String -> Armazena caracteres e números
+Number (Número) -> Armazena números inteiros e não inteiros
+Boolean -> true (verdadeiro) / false (falso)
+
+---
+

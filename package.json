@@ -1,0 +1,19 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Tutorial de lógica de programação com JavaScript",
+  "main": "Hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericaviana12/JavaScript.git"
+  },
+  "author": "Erica Viana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericaviana12/JavaScript/issues"
+  },
+  "homepage": "https://github.com/ericaviana12/JavaScript#readme"
+}

@@ -24,3 +24,9 @@ console.log(idade) //para escrever o conteúdo dessa variável configurada
 vip = true //quando escreve o vip true, ele cria a variável Booleana
 console.log(typeof(vip)) //atribui à variável "vip" um valor (typeof é para identificar qual o tipo de variável (Boolean))
 console.log(vip) //para escrever o conteúdo dessa variável configurada
+
+console.log(pi)
+//pi = 3.14
+
+nome = "Erica Viana Soares"
+console.log(nome)

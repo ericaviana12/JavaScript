@@ -1,0 +1,3 @@
+Desafio 01 - "A hora do código"
+code.org
+Fazer o desafio "A hora do código", imprimir o certificado, postar no LinkedIn e marcar o professor

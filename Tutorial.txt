@@ -145,3 +145,7 @@ Dica de vídeo: https://www.youtube.com/watch?v=Z1GNW_woXI0
 3) Entender o problema - Não adianta sentar na frente do PC se você não sabe como resolver o problema
 
 Algoritmo ("receita do bolo")
+Conceito: 
+            Variáveis
+Entrada - Processamento - Saída
+

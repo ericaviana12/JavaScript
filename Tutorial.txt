@@ -134,3 +134,14 @@ Boolean -> true (verdadeiro) / false (falso)
 
 ---
 
+Mandamentos da programação
+
+1) UX (User eXperience) - Desenvolver sempre pensando na experiência do usuário
+
+Dica de vídeo: https://www.youtube.com/watch?v=Z1GNW_woXI0
+
+2) Usar o mínimo possível de código (variáveis, operadores, comparadores, estruturas de controle, etc) para resolver o problema (lembrar do marcapasso)
+
+3) Entender o problema - Não adianta sentar na frente do PC se você não sabe como resolver o problema
+
+Algoritmo ("receita do bolo")

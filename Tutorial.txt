@@ -148,4 +148,3 @@ Algoritmo ("receita do bolo")
 Conceito: 
             Variáveis
 Entrada - Processamento - Saída
-

@@ -77,6 +77,8 @@ node -v (verificar a versão do Node instalado no PC)
 npm -v (verificar a versão do NPM instalado no PC)
 npm ls (listar pacotes instalados)
 npm init (iniciar um novo projeto JavaScript - um setup do novo projeto)
+npm install "nome do pacote" (instalar um novo pacote)
+npm remove "nome do pacote" (remove um pacote)
 
 ---
 
@@ -148,3 +150,15 @@ Algoritmo ("receita do bolo")
 Conceito: 
             Variáveis
 Entrada - Processamento - Saída
+
+---
+
+Pacote / Biblioteca
+
+'Teste' (aspa simples) - Para importação de biblioteca
+"Teste" (aspa duplas) - Para criação de texto
+
+npm install colors - Instalar a biblioteca de comparadores
+npm install readline-sync - Instalar a biblioteca de entrada de dados
+
+Para importação da biblioteca é necessário que seja a primeira linha do código

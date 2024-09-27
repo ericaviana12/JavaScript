@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ericaviana12/JavaScript/issues"
   },
-  "homepage": "https://github.com/ericaviana12/JavaScript#readme"
+  "homepage": "https://github.com/ericaviana12/JavaScript#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "readline-sync": "^1.4.10"
+  }
 }

@@ -162,3 +162,5 @@ npm install colors - Instalar a biblioteca de comparadores
 npm install readline-sync - Instalar a biblioteca de entrada de dados
 
 Para importação da biblioteca é necessário que seja a primeira linha do código
+
+---

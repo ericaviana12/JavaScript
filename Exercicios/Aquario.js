@@ -15,7 +15,7 @@ console.clear()
 console.log("Cálculo do volume de um aquario")
 
 // Entrada - Atribuir valores as variáveis
-comprimento = Number(input.question("Digite o comprimento do aquario: "))
+comprimento = Number(input.question("Digite o comprimento do aquario: ")) // Inserir o valor em cm
 largura = Number(input.question("Digite a largura do aquario: "))
 altura = Number(input.question("Digite a altura do aquario: "))
 

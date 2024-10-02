@@ -13,6 +13,7 @@ console.clear()
 
 // Exibir o texto entre "" (aspas)
 console.log("Cálculo de porcentagem de um valor")
+console.log("x% de y = valor")
 
 // Entrada - Atribuir valores as variáveis
 x = Number(input.question("Digite o valor de x: "))
@@ -22,4 +23,4 @@ y = Number(input.question("Digite o valor de y: "))
 valor = (x * y)/100
 
 // Saída - Resultado do processamento
-console.log(`Valor: ${valor.toFixed(2)}`)
+console.log(`${x}% de ${y} = ${valor.toFixed(2)}`)

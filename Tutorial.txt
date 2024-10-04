@@ -93,6 +93,8 @@ typeof() -> verificar o tipo de variável
 ATENÇÃO - No JavaScript uma variável pode ser criada usando Let ou Var
 Var é obsoleto e inseguro (usar sempre o Let)
 
+console.log("Erica\nViana") // o "\n" faz quebra de linha (pula a linha)
+
 ---
 
 Gerenciador de pacote para o Node

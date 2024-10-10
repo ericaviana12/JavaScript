@@ -20,7 +20,7 @@ largura = Number(input.question("Digite a largura do aquario: "))
 altura = Number(input.question("Digite a altura do aquario: "))
 
 // Processamento - Fórmula para cálculo do código
-volume = (comprimento * largura * altura)/1000
+volume = (comprimento * largura * altura) / 1000
 
 // Saída - Resultado do processamento
 console.log(`Volume: ${volume.toFixed(2)}`)

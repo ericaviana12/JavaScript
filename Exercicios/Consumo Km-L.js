@@ -19,7 +19,7 @@ distancia = Number(input.question("Digite a distancia percorrida: "))
 litros = Number(input.question("Digite a quantidade de litros de combustivel utilizado: "))
 
 // Processamento - Fórmula para cálculo do código
-consumo = distancia/litros
+consumo = distancia / litros
 
 // Saída - Resultado do processamento
 console.log(`Consumo do veículo: ${consumo.toFixed(2)} km/l`)

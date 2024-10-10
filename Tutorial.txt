@@ -166,3 +166,28 @@ npm install readline-sync - Instalar a biblioteca de entrada de dados
 Para importação da biblioteca é necessário que seja a primeira linha do código
 
 ---
+
+Estruturas de controle
+
+- Condicionais
+- Laços de repetições
+
+Estruturas de controle condicionais:
+
+- Somente com a sintaxe "if"
+
+if (condição) {
+    //condição verdadeira
+}
+
+    - Unir as sintaxes "if" e "else"
+
+if (condição) {
+    //condição verdadeira
+} else {
+    //condição falsa
+}
+
+Observações:
+1) Uma condição nunca pode ser verdadeira e falsa simultaneamente
+2) No uso do if-else sempre uma das condições será processada

@@ -3,8 +3,9 @@
  * @author Erica Viana
  */
 
-// Importar a biblioteca read-linesync
+// Importar a biblioteca read-linesync e a biblioteca colors
 const input = require('readline-sync')
+const colors = require('colors')
 
 // Variáveis - O algoritmo
 let num1, num2, num3, media
@@ -22,7 +23,14 @@ num2 = Number(input.question("Digite o segundo numero: "))
 num3 = Number(input.question("Digite o terceiro numero: "))
 
 // Processamento - Fórmula para cálculo do código
-media = (num1 + num2 + num3)/3
+media = (num1 + num2 + num3) / 3
 
 // Saída - Resultado do processamento
-console.log(`Média: ${media.toFixed(1)}`) // .toFixed(1) - Limita os caracteres numéricos à 1 casa decimal
+console.log(`Média: ${media.toFixed(1)}`) // ${} - Exibe a concatenação entre a frase e a variável solicitada / .toFixed(1) - Limita os caracteres numéricos à 1 casa decimal
+
+// Exibir a informação se o aluno foi aprovado ou reprovado (Para aprovação média deve ser >= 5)
+if (media >= 5) {
+    console.log("Aprovado".blue) // Inserir a cor azul no texto em caso de aprovação
+} else {
+    console.log("Reprovado".red) // Inserir a cor vermelha no texto em caso de reprovação
+}

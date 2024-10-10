@@ -20,7 +20,7 @@ x = Number(input.question("Digite o valor de x: "))
 y = Number(input.question("Digite o valor de y: "))
 
 // Processamento - Fórmula para cálculo do código
-valor = (x * y)/100
+valor = (x * y) / 100
 
 // Saída - Resultado do processamento
 console.log(`${x}% de ${y} = ${valor.toFixed(2)}`)

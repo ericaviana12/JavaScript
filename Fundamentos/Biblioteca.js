@@ -3,7 +3,7 @@
  * @author Erica Viana
  */
 
-// Importar o pacote
+// Importar a biblioteca colors para atribuir cores e formatação ao texto
 const colors = require('colors')
 
 console.clear()

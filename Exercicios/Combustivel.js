@@ -7,7 +7,7 @@
 const input = require('readline-sync')
 
 // Variáveis - O algoritmo
-let consumo, alcool, gasolina
+let etanol, gasolina
 
 console.clear()
 
@@ -15,15 +15,12 @@ console.clear()
 console.log("Qual combustível comprar")
 
 // Entrada - Atribuir valores as variáveis
-alcool = Number(input.question("Digite o valor do alcool (em R$): "))
-gasolina = Number(input.question("Digite o valor do aasolina (em R$): "))
+etanol = Number(input.question("Digite o valor do etanol (em R$): "))
+gasolina = Number(input.question("Digite o valor do gasolina (em R$): "))
 
-// Processamento - Fórmula para cálculo do código
-consumo = alcool / gasolina
-
-// Exibir a informação se é melhor Alcool ou Gasolina
-if (consumo < 0.7) {
-    console.log("Alcool")
+// Processamento e saída
+if (etanol < 0.7 * gasolina) {
+    console.log("Etanol")
 } else {
     console.log("Gasolina")
 }

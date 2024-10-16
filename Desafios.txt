@@ -5,4 +5,3 @@ Fazer o desafio "A hora do código", imprimir o certificado, postar no LinkedIn 
 Desafio 02 - Etanol x Gasolina
 Desenvolver um app para verificar qual combustível é mais vantajoso para abastecer.
 O Etanol será mais vantajoso se o seu preço for 70% ou menos do que o da gasolina.
-

@@ -23,7 +23,6 @@ opcao = Number(input.question("Digite a opcao desejada: "))
 switch (opcao) {
     case 1:
         console.clear()
-        console.log("Carregando o sistema Windows ..........")
         console.log("")
         console.log("                   ....iilllllllllllll")
         console.log("       ....iillll  lllllllllllllllllll")

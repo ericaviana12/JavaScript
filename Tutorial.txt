@@ -192,6 +192,8 @@ Observações:
 1) Uma condição nunca pode ser verdadeira e falsa simultaneamente
 2) No uso do if-else sempre uma das condições será processada
 
+Função else if
+
 if (condição1) {
     //condição 1 verdadeira
 } else if (condição 2) {
@@ -201,3 +203,19 @@ if (condição1) {
 }
 
 Observação: Nessa estrutura o "else" é opcional, porém se indicado e caso nenhuma condição seja verdadeira, ele obrigatoriamente executará o que estiver no else
+
+---
+
+Função "Switch case" (uso de variável numérica (número inteiro))
+
+switch (variável) {
+   case 1:
+        // Código caso o valor da variável seja 1
+        break 
+    case 2:
+        // Código caso o valor da variável seja 2
+        break
+    default:
+        // Opcional, o código será executado se nenhum caso for definido
+        break
+}

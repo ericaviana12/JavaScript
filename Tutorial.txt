@@ -192,7 +192,7 @@ Observações:
 1) Uma condição nunca pode ser verdadeira e falsa simultaneamente
 2) No uso do if-else sempre uma das condições será processada
 
-Função else if
+- Função else if
 
 if (condição1) {
     //condição 1 verdadeira
@@ -206,7 +206,7 @@ Observação: Nessa estrutura o "else" é opcional, porém se indicado e caso ne
 
 ---
 
-Função "Switch case" (uso de variável numérica (número inteiro))
+- Função "Switch case" (uso de variável numérica (número inteiro))
 
 switch (variável) {
    case 1:
@@ -219,3 +219,24 @@ switch (variável) {
         // Opcional, o código será executado se nenhum caso for definido
         break
 }
+
+---
+
+- Laços de repetições
+
+for (let i = 1; i < 10; i++) {
+    // O código aqui dentro será repetido enquanto a condição for verdadeira
+}
+
+
+// Laço com número de repetições definidas
+
+// let i = 1 (início)
+// i < 10 (condição)
+// i++ (incremento) ou i-- (decremento)
+
+Uso do laço for
+
+1) Percorrer uma estrutura de dados (importante)
+2) Simplificar o código (economizar linhas de código)
+3) Fazer cálculos levando em conta a variável interna do laço

@@ -49,3 +49,12 @@ switch (computador) {
         console.log("Computador escolheu TESOURA")
         break
 }
+
+// Processamento e saída - Lógica para determinar o vencedor ou declara empate
+if (jogador === computador) {
+    console.log("Empate")
+} else if (jogador === 1 && computador === 3 || jogador === 2 && computador === 1 || jogador === 3 && computador === 2) {
+    console.log("Jogador VENCEU")
+} else {
+    console.log("Computador VENCEU")
+}

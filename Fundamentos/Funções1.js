@@ -3,6 +3,8 @@
  * @author Erica Viana
  */
 
+// Limpar a tela antes de uma nova entrada
+console.clear()
 
 // Função literal
 // Inicializa a função independente da ordem da chamada da função

@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/ericaviana12/JavaScript#readme",
   "dependencies": {
+    "axios": "^1.7.7",
     "colors": "^1.4.0",
+    "prompt-sync": "^4.2.0",
     "readline-sync": "^1.4.10"
   }
 }

@@ -4,7 +4,7 @@ Lógica de programação
 - Operadores
 - Algorítmo
 - Estruturas de controle
-- POO
+- POO - Programação Orientada a Objetos
 - Estruturas de dados
  
 ---
@@ -222,7 +222,8 @@ switch (variável) {
 
 ---
 
-- Laços de repetições
+Estruturas de controle Loops:
+- Laços de repetições (Estruturas de repetição)
 
 for (let i = 1; i < 10; i++) {
     // O código aqui dentro será repetido enquanto a condição for verdadeira
@@ -240,3 +241,20 @@ Uso do laço for
 1) Percorrer uma estrutura de dados (importante)
 2) Simplificar o código (economizar linhas de código)
 3) Fazer cálculos levando em conta a variável interna do laço
+
+---
+
+- Função while
+
+while (condição) {
+    // Condição verdadeira
+}
+
+
+- Função do while
+
+do {
+    // Executa o código uma vez independente da condição e depois analisa a condição
+}   while (condição)
+
+As estruturas "while" e "do-while" são estruturas de repetições infinitas, ou seja, enquanto a condição for verdadeira o código interno será repetido infinitamente.

@@ -7,9 +7,11 @@
 const input = require('readline-sync')
 
 // Variáveis - O algoritmo
-let jogador, computador
+let jogador, computador, opcao
 
-console.clear()
+do {
+
+    console.clear()
 
 // Exibir o texto entre "" (aspas)
 console.log("JoKenPo")
@@ -58,3 +60,7 @@ if (jogador === computador) {
 } else {
     console.log("Computador VENCEU")
 }
+
+    opcao = input.question("Deseja jogar o dado novamente? (s/n)")
+
+} while (opcao === 's')

@@ -10,7 +10,7 @@ Lógica de programação
 ---
  
 GIT e GITHUB
- 
+
 Comandos básicos do git:
 
 git config --global user.name "Seu nome"
@@ -258,3 +258,15 @@ do {
 }   while (condição)
 
 As estruturas "while" e "do-while" são estruturas de repetições infinitas, ou seja, enquanto a condição for verdadeira o código interno será repetido infinitamente.
+
+---
+
+Executando JavaScript junto com HTML
+
+- Execução interna no próprio documento HTML
+- Link com documento JS (preferencialmente)
+
+Tanto faz colocar o script.js em <head> </head> ou <body> </body> - é melhor colocar no <head> </head> pois se houver uma função, ela deve ser configurada antes da chamada da função
+
+<head> </head> equivale ao void setup
+<body> </body> equivale ao void loop

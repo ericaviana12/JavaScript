@@ -7,7 +7,7 @@
 console.clear()
 
 
-// Função literal - Inicializa a função independente da ordem da chamada da função
+// Função literal (não atribuída) - Inicializa a função independente da ordem da chamada da função
 function somar(a, b) {
     return (console.log(a + b))
 }

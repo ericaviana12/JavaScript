@@ -1,5 +1,5 @@
 /**
- * JoKenPo
+ * Jogo jokenpo
  * @author Erica Viana
  */
 

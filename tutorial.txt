@@ -270,3 +270,39 @@ Tanto faz colocar o script.js em <head> </head> ou <body> </body> - é melhor co
 
 <head> </head> equivale ao void setup
 <body> </body> equivale ao void loop
+
+---
+
+POO (Programação orientada a objetos)
+
+Objeto -> Estrutura de dados
+
+Conceito relacionado a estruturas de dados:
+CRUD (Create Read Update Delete)
+
+As 4 operações básicas que podemos realizar com a estrutura de dados:
+Create -> Inserção de dados na estrutura
+Read -> Pesquisa de dados na estrutura
+Update -> Alteração de dados na estrutura
+Delete -> Exclusão de dados
+
+Pilares da programação orientada a obejetos:
+// Reutilização
+Abstração
+Herança
+Polimorfismo
+Encapsulamento
+
+//Segurança
+Encapsulamento
+
+//Observações
+Toda classe modelo obrigatóriamente deve iniciar com letra maiúscula
+
+Dica:
+Classe (biologia: mamíferos) 
+
+Língua portuguesa:
+Objeto (substantivo)
+Atributo (adjetivo)
+Métodos (verbos)

@@ -293,6 +293,13 @@ Herança
 Polimorfismo
 Encapsulamento
 
+Classe modelo (abstração - herança - polimorfismo)
+- Biblioteca nativa do JS
+- Biblioteca instalada no node
+- Criada pelo usuário usando class
+
+Observação: o ponto "." é usado para acessar atributos e métodos da classe modelo (tem quem chame de classe mãe ou classe pai, mas é classe modelo)
+
 //Segurança
 Encapsulamento
 

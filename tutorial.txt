@@ -313,3 +313,15 @@ Língua portuguesa:
 Objeto (substantivo)
 Atributo (adjetivo)
 Métodos (verbos)
+
+---
+
+Estruturas de dados (array, vetor ou lista)
+
+É uma forma especial de trabalhar com variáveis, podendo armazenar mais de um valor em uma única variável declarada. Para manipular os dados de um vetor usamos o índice que sempre inicia em 0 (zero).
+
+Usos do vetor:
+1) Simplificar e minimizar o código
+2) Problemas que precisam armazenar dados em uma sequência - Exemplo: o jogo Genius
+3) Estrutura de dados em operações com banco de dados
+
